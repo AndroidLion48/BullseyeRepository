@@ -1,5 +1,7 @@
 # Kotlin - Bullseye Game
 
+![Start Screen](/screenShots/initial_screen.png)
+
 This is the app for the [Your First Kotlin Android App](https://www.raywenderlich.com/30498263-your-first-kotlin-android-app-an-app-from-scratch).
 
 I've built a simple Game in a constraint layout that returns a random target number between 1 and 100 for the player to attempt to match using the seek bar. Once a player has clicked Check Shot the application will calculate relative position on the bar the clicked with the target number they shot for and return their score.

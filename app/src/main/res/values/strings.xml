@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Bullseye Game</string>
-    <string name="instruction_Txt">Put the Bullseye as Close as you can to...</string>
+    <string name="instruction_Txt">Place Marker as close as possible \n to the Target Number</string>
     <string name="targetTxtNum">352</string>
     <string name="leftTxtBarTxt">1</string>
     <string name="rightTxtBarTxt">100</string>
-    <string name="buttonTxt">Hit Me!</string>
+    <string name="buttonTxt">Check Shot!</string>
     <string name="result_dialog_title">Hello</string>
     <string name="result_dialog_message">The slider\'s value is %1$d.\n You scored %2$d points this round.</string>
-    <string name="result_dialog_button_text">Awesome! Your getting there</string>
+    <string name="result_dialog_button_text">Awesome! Try Again!!!</string>
 </resources>

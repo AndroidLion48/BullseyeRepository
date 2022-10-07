@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/archery_day_1"
     tools:context=".MainActivity">
 
     <TextView
@@ -11,18 +12,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/instruction_Txt"
+        android:textSize="24sp"
+        android:textColor="#59FF00"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias=".20" />
+        app:layout_constraintVertical_bias=".10" />
 
     <TextView
         android:id="@+id/targetTxtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/targetTxtNum"
-        android:textSize="24sp"
+        android:textSize="32sp"
+        android:textColor="#59FF00"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toTopOf="@id/seekBar"
         app:layout_constraintEnd_toEndOf="@id/instructionTxtView"
@@ -35,8 +40,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="16dp"
+        android:textStyle="bold"
+        android:textColor="#59FF00"
         android:text="@string/leftTxtBarTxt"
-        android:textSize="12sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/seekBar"
         app:layout_constraintEnd_toStartOf="@id/seekBar"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +56,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="32dp"
         android:text="@string/rightTxtBarTxt"
-        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#59FF00"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/seekBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/seekBar"
@@ -59,10 +68,11 @@
         android:id="@+id/seekBar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:thumb="@android:drawable/ic_input_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/rightTxtBarView"
         app:layout_constraintStart_toEndOf="@id/leftTxtBarView"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/hit_me_button"
